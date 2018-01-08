@@ -1,0 +1,31 @@
+body {
+    background: #bbbbbb;
+}
+
+form {
+    background: #ffffff;
+    margin: 0 auto;
+    padding-top: 300px;
+    text-align: center;
+    width: 900px;
+}
+
+input[type="text"] {
+    width: 500px;
+    padding-top: 30px;
+}
+
+input[type="password"] {
+    width: 500px;
+    padding-top: 30px;
+}
+
+input[type="number"] {
+    width: 500px;
+    padding-top: 30px;
+}
+
+input[type="submit"] {
+    padding: 20px 50px;
+    padding-top: 20px;
+}
