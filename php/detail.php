@@ -20,6 +20,7 @@
 
         print "<img src=\"{$image}\" alt=\"商品画像\">";
         print "<h2>{$row['name']}</h2>";
+        print "<p>¥ {$row['price']}</p>";
 
         if($row['sold_out'] == 'f'){
             print <<< EOF

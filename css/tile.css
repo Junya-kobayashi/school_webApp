@@ -3,7 +3,23 @@ body {
 }
 
 .container {
-    width: 900px;
+    width: 1200px;
     margin: 0 auto;
     background-color: #fff;
+}
+
+.item {
+    width: 350px;
+    float: left;
+}
+
+.item img {
+    text-align: center;
+}
+
+.item a {
+    text-decoration: none;
+    background-color: #69F0AE;
+    padding: 10px 50px;
+    color: #fff;
 }

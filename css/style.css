@@ -1,6 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     background-color: #69F0AE;
     padding: 10px 50px;
     color: #fff;
     text-decoration: none;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.sidemenu {
+    margin: 30px 0px;
+    float: right;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/tile.css">
     <title>Document</title>
 </head>
 <body>
@@ -27,14 +27,15 @@
             }else{
                 print  <<< EOF
                 <div class = "item">
-                    <img src="{$image}" alt="商品画像">
+                    <img src="{$image}" alt="商品画像" width="300">
                     <h2>{$row["name"]}</h2>
-                    <a href="./detail.php?id={$row['id']}">{$row['name']}</a>
+                    <p>¥ {$row[$price]}</p>
+                    <a href="./detail.php?id={$row['id']}">詳細をみる</a>
                 </div>
 EOF;
-                print "<a href=\"index.php\">topページへ</a>";
             }
         }
+        print "<a href=\"index.php\">topページへ</a>"
 //         print "<table border=1>";
 //         print "<tr><th>商品一覧</th></tr>";
 //         for($i = 0; $i < $num; $i++){
