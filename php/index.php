@@ -8,20 +8,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>フリマサイト(情報工学科)</title>
     <meta name="description" content="A slideshow with different artsy CSS grid layouts" />
     <meta name="keywords" content="css grid, layout, slideshow, irregular, html, javascript, reveal, animation" />
     <meta name="author" content="Codrops" />
+    <title>フリマサイト(情報工学科)</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Kanit:700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/revealer.css" />
     <link rel="stylesheet" type="text/css" href="pater/pater.css" />
+    <link rel="stylesheet" href="../css/style.css">
     <script>
         document.documentElement.className = 'js';
     </script>
-    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="demo-1 loading">
     <h1>フリマアプリ</h1>
