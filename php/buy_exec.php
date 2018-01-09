@@ -18,7 +18,6 @@
         $result = pg_execute($conn, "query", array($id));
         print '購入ありがとうございます！';
         print "<a href=\"index.php\">topへ</a>";
-
     ?> 
 </body>
 </html>

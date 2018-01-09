@@ -18,18 +18,17 @@
         $row = pg_fetch_assoc($result, 0);
         $image = $row['pict'];
 
-        print "<table border = \"1\">";
         print "<img src=\"{$image}\" alt=\"商品画像\">";
+        print "<h2>{$row['name']}</h2>";
 
         if($row['sold_out'] == 'f'){
-            print<<<EOF
+            print <<< EOF
             <form action="./buy_exec" method="POST">
                 <input type="hidden" name="id" value="{$row['id']}">
                 <input type="submit" value="購入">
             </form>       
 EOF;
         }
-        print '</table>'
     ?>
     
 </body>
