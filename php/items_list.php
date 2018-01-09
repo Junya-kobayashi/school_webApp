@@ -28,8 +28,8 @@
                 print  <<< EOF
                 <div class = "item">
                     <img src="{$image}" alt="商品画像" width="300">
-                    <h2>{$row["name"]}</h2>
-                    <p>¥ {$row[$price]}</p>
+                    <p>{$row["name"]}</p>
+                    <h2>¥ {$row["price"]}</h2>
                     <a href="./detail.php?id={$row['id']}">詳細をみる</a>
                 </div>
 EOF;

@@ -23,12 +23,13 @@
             $row = pg_fetch_assoc($result, $i);
             $image = $row['pict'];
             if($row['sold_out'] == 't'){
-                print "<p>この商品は売り切れています</p>";
+                // print "<p>この商品は売り切れています</p>";
             }else{
                 print <<< EOF
                 <div class = "item">
                     <img src="{$image}" alt="検索結果" width="300">
-                    <h2>{$row['name']}</h2>
+                    <p>{$row['name']}</p>
+                    <h2>¥ {$row['price']}</h2>
                     <a href="./detail.php?id={$row['id']}">詳細をみる</a>
                 </div>
 EOF;

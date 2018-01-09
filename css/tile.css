@@ -1,23 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: #ddd;
 }
 
 .container {
-    width: 1200px;
+    width: 1000px;
+    height: auto;
     margin: 0 auto;
-    background-color: #fff;
+    overflow: hidden;
 }
 
 .item {
-    width: 350px;
+    width: 300px;
     float: left;
+    margin-top: 200px;
+    margin-right: 50px;
+    background-color: #fff;
+    margin: 0 auto;
 }
 
 .item img {
     text-align: center;
+    margin-top: 10px;
+    margin: 0 auto;
 }
 
-.item a {
+.item p {
+    margin-top: 10px;
+}
+
+.item h2 {
+    margin: 20px 0;
+}
+
+a {
     text-decoration: none;
     background-color: #69F0AE;
     padding: 10px 50px;
