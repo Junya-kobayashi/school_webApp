@@ -24,7 +24,7 @@
     </script>
 </head>
 <body class="demo-1 loading">
-    <h1>フリマアプリ</h1>
+    <h1>Free Market Application</h1>
     <div class="sidemenu">
         <?php
             if(!isset($_SESSION['login_name'])){
@@ -57,14 +57,14 @@
 		</svg>
     <main>
         <div class="message">Please view this demo on a desktop to see the grid.</div>
-        <div class="frame">
+        <!-- <div class="frame">
             <header class="codrops-header">
                 <div class="codrops-links">
                     <a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/OrganicShapeAnimations/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
                     <a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=31774" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
                 </div>
-                <h1 class="codrops-header__title"><a href="https://tympanus.net/codrops/css_reference/grid/">[CSS Grid]</a> Layout Slideshow</h1>
-                <a class="github" href="https://github.com/codrops/GridLayoutSlideshow/">GitHub</a>
+                <h1 class="codrops-header__title"><a href="https://tympanus.net/codrops/css_reference/grid/">[CSS Grid]</a> Layout Slideshow</h1> -->
+                <!-- <a class="github" href="https://github.com/codrops/GridLayoutSlideshow/">GitHub</a>
             </header>
             <nav class="demos">
                 <a class="demo demo--current" href="index.html">Demo 1</a>
@@ -76,7 +76,7 @@
                 <h2 class="pater__title">Project management is better when it's visual</h2>
                 <div class="pater__img-wrap"><img class="pater__img" src="pater/winmacrainbow.png" alt="dapulse Creative" /></div>
             </a>
-        </div>
+        </div> -->
         <div class="grid grid--layout-1 grid--current">
             <div class="grid__item"></div>
             <div class="grid__item"></div>
@@ -97,7 +97,7 @@
             <div class="grid__item grid__item--nav grid__item--nav-next">
                 <svg class="icon icon--nav-arrow"><use xlink:href="#icon-nav-arrow"></use></svg>
             </div>
-            <h2 class="grid__item grid__item--name">Oyo<br/> Expo <br/>2017</h2>
+            <h2 class="grid__item grid__item--name">Free<br/> Market <br/> on2017 </h2>
             <h3 class="grid__item grid__item--title">Belfast</h3>
             <p class="grid__item grid__item--text">A reet bobbydazzler a right toff Sherlock Queen Elizabeth Shakespeare</p>
         </div>
@@ -121,7 +121,7 @@
             <div class="grid__item grid__item--nav grid__item--nav-next">
                 <svg class="icon icon--nav-arrow"><use xlink:href="#icon-nav-arrow"></use></svg>
             </div>
-            <h2 class="grid__item grid__item--name">Oyo<br/> Expo <br/>2018</h2>
+            <h2 class="grid__item grid__item--name">free<br/> Market <br/>on2018</h2>
             <h3 class="grid__item grid__item--title">Minsk</h3>
             <p class="grid__item grid__item--text">You mean it ain't me noggin' leisurely shepherd's pie bossy britches</p>
         </div>
@@ -145,7 +145,7 @@
             <div class="grid__item grid__item--nav grid__item--nav-next">
                 <svg class="icon icon--nav-arrow"><use xlink:href="#icon-nav-arrow"></use></svg>
             </div>
-            <h2 class="grid__item grid__item--name">Oyo<br/> Expo <br/>2019</h2>
+            <h2 class="grid__item grid__item--name">Free<br/> Market <br/>on2019</h2>
             <h3 class="grid__item grid__item--title">Paris</h3>
             <p class="grid__item grid__item--text">Dignified teacakes air one's dirty linen off t'shop scouser quid pezzy little taking the mick</p>
         </div>
