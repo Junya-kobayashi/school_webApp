@@ -27,6 +27,9 @@
                 print "アップロードに成功しました。";
                 print "<a href=\"index.php\">topへ</a>";
             }
+        }else{
+            $default_pass = './images/default.png';
+            $result = pg_execute($conn, "sell", array($item_name, $price, $description, $user_id, $default_pass));
         }
     ?>
 </body>
