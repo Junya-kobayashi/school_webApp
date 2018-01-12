@@ -11,7 +11,7 @@
     <?php
         session_name('j150719j');
         session_start();
-        $id = $_POST['id'];
+        $id = htmlspecialchars($_POST['id']);
         $conn = pg_connect("host = localhost user=j150719j dbname=j150719j");
         $query = "UPDATE items SET sold_out = TRUE WHERE id = $1";
         $result = pg_prepare($conn, "query", $query);

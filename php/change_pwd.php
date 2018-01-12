@@ -13,8 +13,8 @@
 </head>
 <body>
     <?php
-        $pwd = $_POST['pwd'];
-        $newpwd = $_POST['newpwd'];
+        $pwd = htmlspecialchars($_POST['pwd']);
+        $newpwd = htmlspecialchars($_POST['newpwd']);
         $user_id = $_SESSION['id'];
         $conn = pg_connect("host = localhost user=j150719j dbname=j150719j");
         $query1 = "SELECT * FROM users WHERE id = $1";

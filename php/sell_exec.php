@@ -13,10 +13,10 @@
         session_start();
         $conn = pg_connect("host = localhost user=j150719j dbname=j150719j");
         $user_id = $_SESSION['id'];
-        $item_name = $_POST['item_name'];
-        $price = $_POST['price'];
+        $item_name = htmlspecialchars($_POST['item_name']);
+        $price = htmlspecialchars($_POST['price']);
         // $image = $_FILES['image'];
-        $description = $_POST['description'];
+        $description = htmlspecialchars($_POST['description']);
         $query = "INSERT INTO items (name, price, description, seller, pict) VALUES ($1, $2, $3, $4, $5)";
         $result = pg_prepare($conn, "sell", $query);
         $uploaddir = "./images/";
@@ -30,6 +30,7 @@
         }else{
             $default_pass = './images/default.png';
             $result = pg_execute($conn, "sell", array($item_name, $price, $description, $user_id, $default_pass));
+            print "<a href=\"index.php\">topへ</a>";
         }
     ?>
 </body>

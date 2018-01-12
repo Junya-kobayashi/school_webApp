@@ -14,9 +14,9 @@
         }else if(empty($_POST['login_name']) || empty($_POST['pwd'])){
             print "ユーザー名とパスワードを入力してください<br>";
         } else {
-            $login_name = $_POST['login_name'];
-            $pwd = $_POST['pwd'];
-            $byear = $_POST['byear'];
+            $login_name = htmlspecialchars($_POST['login_name']);
+            $pwd = htmlsecialchars($_POST['pwd']);
+            $byear = htmlspecialchars($_POST['byear']);
 
             $hashpwd = password_hash($pwd, PASSWORD_DEFAULT);
 
